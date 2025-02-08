@@ -35,7 +35,7 @@ export default function RootLayout({
             <Link href="/" className="text-xl font-bold">
               Workk.
             </Link>
-            <Link href="/">Jobs</Link>
+            <Link href="/job">Jobs</Link>
             <Link href="/">About us</Link>
           </div>
           <div className="flex items-center gap-4">
