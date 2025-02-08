@@ -39,8 +39,12 @@ export default function RootLayout({
             <Link href="/">About us</Link>
           </div>
           <div className="flex items-center gap-4">
-            <Button variant="outline">Login</Button>
-            <Button>Sign up</Button>
+            <Link href="/login">
+              <Button variant="outline">Login</Button>
+            </Link>
+            <Link href="/sign-up">
+              <Button>Sign up</Button>
+            </Link>
           </div>
         </header>
         <hr />
